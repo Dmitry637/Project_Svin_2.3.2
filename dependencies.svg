@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1056" height="278"
+     viewBox="0 0 1056 278" role="img">
+  <title>Dependency graph: com.example:demo-app:1.0.0</title>
+  <defs>
+    <marker id="arrow" markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3" orient="auto">
+      <path d="M0,0 L0,6
+            L9,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <style>
+    .edge { fill: none; stroke: #64748b; stroke-width: 2;
+            marker-end: url(#arrow); }
+    .edge-label { fill: #475569; font: 11px sans-serif;
+                   text-anchor: middle; }
+    .node rect { fill: #eff6ff; stroke: #3b82f6;
+                  stroke-width: 2; }
+    .root-node rect { fill: #dcfce7; stroke: #16a34a;
+                       stroke-width: 2; }
+    .node-title { fill: #0f172a; font: bold 14px sans-serif; }
+    .node-version { fill: #475569; font: 11px sans-serif; }
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <path d="M 298 86 C 350 86, 350 86, 403 86" class="edge" /><text x="350" y="78" class="edge-label">compile</text><path d="M 298 86 C 350 86, 350 192, 403 192" class="edge" /><text x="350" y="131" class="edge-label">runtime, optional</text><path d="M 653 86 C 705 86, 705 86, 758 86" class="edge" /><text x="705" y="78" class="edge-label">compile</text>
+  <g class="root-node"><rect x="48" y="48" width="250" height="76" rx="12" /><text x="64" y="77" class="node-title">com.example:demo-app</text><text x="64" y="101" class="node-version">version: 1.0.0</text></g><g class="node"><rect x="403" y="48" width="250" height="76" rx="12" /><text x="419" y="77" class="node-title">org.example:demo-core</text><text x="419" y="101" class="node-version">version: 2.1.0</text></g><g class="node"><rect x="403" y="154" width="250" height="76" rx="12" /><text x="419" y="183" class="node-title">org.example:demo-utils</text><text x="419" y="207" class="node-version">version: 1.4.0</text></g><g class="node"><rect x="758" y="48" width="250" height="76" rx="12" /><text x="774" y="77" class="node-title">org.example:demo-common</text><text x="774" y="101" class="node-version">version: 1.0.0</text></g>
+</svg>
